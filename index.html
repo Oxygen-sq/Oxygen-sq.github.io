@@ -64,90 +64,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-测试文档" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/09/18/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/" class="article-date">
-  <time datetime="2021-09-17T17:02:06.329Z" itemprop="datePublished">2021-09-18</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="C-字符提取和整数整除练习（Console）"><a href="#C-字符提取和整数整除练习（Console）" class="headerlink" title="C#   字符提取和整数整除练习（Console）"></a><em><strong>C#   字符提取和整数整除练习（Console）</strong></em></h2><p>用控制台应用程序实现下列功能：从键盘接收一个大于100的整数，然后分别输出该整数每一位的值，并且输出这些为相加的结果。要求分别用字符提取法和整数整除法实现。字符提取法是指先将整数转换为字符串，然后依次取字符串中的每个字符，再将每个字符转换为整数求和。整数整除法是指利用取整和求余数的方法求每一位的值，再求这些位的和。<br>程序運行效果如圖：<br><img src="https://img-blog.csdnimg.cn/20201005180057335.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzQ2MzAwODI3,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>代碼如下：</p>
-<p>```csharp<br>using System;<br>using System.Collections.Generic;<br>using System.Linq;<br>using System.Text;<br>using System.Threading.Tasks;</p>
-<p>namespace lianxi<br>{<br>    class Program<br>    {<br>        static void Main(string[] args)<br>        {</p>
-<pre><code>        while (true)
-        &#123;
-            Console.Write(&quot;请输入一个大于100的数：&quot;);
-            string str = Console.ReadLine();
-            int a = int.Parse(str);//將輸入的數字轉化成整型
-            int length = Math.Abs(a).ToString().Length;//計算輸入的數字的長度
-            Console.WriteLine(&quot;该整数共有&quot; + length + &quot;位&quot;);
-            Console.Write(&quot;实现思路1：每一位的值为&quot;);
-            //字符提取法
-            int sum = 0;
-            int l;
-            for (int i = 0; i &lt; length; i++)
-            &#123;
-                if (i != length - 1)//運用if輸出‘、’和‘，’，如果不需要，也可以不寫if語句
-                &#123;
-                    Console.Write(str[i] + &quot;、&quot;);
-                    l = str[i] - &#39;0&#39;;
-                &#125;
-                else
-                &#123;
-                    Console.Write(str[i] + &quot;,&quot;);
-                    l = str[i] - &#39;0&#39;;//此處減去‘0’，表示使用字符值，而不是ASCII碼值；如果減去0，則得出的是ASCII碼值
-                &#125;
-                sum = sum + l;
-            &#125;
-            Console.WriteLine(&quot;这些位之和为&quot; + sum);
-            
-            //整數整除法
-            int x = a;
-            int sum1 = 0;
-            Console.Write(&quot;实现思路2：每一位的值为&quot;);
-            for (int i = length - 1; i &gt;= 0; i--)
-            &#123;
-                int j = (int)Math.Pow(10, i);//定義10的i次方等於j
-                int a1 = x / j;
-                if (i != 0)
-                &#123;
-                    Console.Write(a1 + &quot;、&quot;);
-                &#125;
-                else
-                &#123;
-                    Console.Write(a1 + &quot;,&quot;);
-                &#125;
-                x = x % j;
-                sum1 = sum1 + a1;
-            &#125;
-            Console.WriteLine(&quot;这些位之和为&quot; + sum1);
-            Console.WriteLine(&quot;按回車鍵退出，按任意键继续&quot;);
-            if (Console.ReadKey(true).Key == ConsoleKey.Enter) break;//判斷輸入，如果輸入的是回車鍵，則退出
-        &#125;
-    &#125;
-&#125;
-</code></pre>
-<p>}</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/09/18/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/" data-id="cktom2w8o0000xkis48277ygu" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2021/09/18/hello-world/" class="article-date">
@@ -226,10 +142,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2021/09/18/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/">(no title)</a>
-          </li>
         
           <li>
             <a href="/2021/09/18/hello-world/">Hello World</a>
