@@ -24,19 +24,17 @@
 
   <meta name="description" content="C#   字符提取和整数整除练习（Console）使用CSDN上自己写的一篇小文章进行测试！用控制台应用程序实现下列功能：从键盘接收一个大于100的整数，然后分别输出该整数每一位的值，并且输出这些为相加的结果。要求分别用字符提取法和整数整除法实现。字符提取法是指先将整数转换为字符串，然后依次取字符串中的每个字符，再将每个字符转换为整数求和。整数整除法是指利用取整和求余数的方法求每一位的值，再求这些">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/posts/undefined/index.html">
+<meta property="og:title" content="Test-测试文档">
+<meta property="og:url" content="http://example.com/posts/c0c3a358/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="C#   字符提取和整数整除练习（Console）使用CSDN上自己写的一篇小文章进行测试！用控制台应用程序实现下列功能：从键盘接收一个大于100的整数，然后分别输出该整数每一位的值，并且输出这些为相加的结果。要求分别用字符提取法和整数整除法实现。字符提取法是指先将整数转换为字符串，然后依次取字符串中的每个字符，再将每个字符转换为整数求和。整数整除法是指利用取整和求余数的方法求每一位的值，再求这些">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2016-07-13T12:46:25.000Z">
-<meta property="article:modified_time" content="2021-09-18T03:18:28.911Z">
+<meta property="article:published_time" content="2021-09-18T05:01:56.595Z">
+<meta property="article:modified_time" content="2021-09-18T05:02:13.501Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="Testing">
-<meta property="article:tag" content="Another Tag">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/posts/undefined/">
+<link rel="canonical" href="http://example.com/posts/c0c3a358/">
 
 
 <script id="page-configurations">
@@ -49,7 +47,7 @@
   };
 </script>
 
-  <title>Hello World | Hexo</title>
+  <title>Test-测试文档 | Hexo</title>
   
 
 
@@ -192,7 +190,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/posts/undefined/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/posts/c0c3a358/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -205,7 +203,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          Test-测试文档
         </h1>
 
         <div class="post-meta">
@@ -214,24 +212,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2016-07-13 20:46:25" itemprop="dateCreated datePublished" datetime="2016-07-13T20:46:25+08:00">2016-07-13</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-09-18 11:18:28" itemprop="dateModified" datetime="2021-09-18T11:18:28+08:00">2021-09-18</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Diary/" itemprop="url" rel="index"><span itemprop="name">Diary</span></a>
-                </span>
+              <time title="创建时间：2021-09-18 13:01:56 / 修改时间：13:02:13" itemprop="dateCreated datePublished" datetime="2021-09-18T13:01:56+08:00">2021-09-18</time>
             </span>
 
           
@@ -246,7 +229,8 @@
 
       
         <h2 id="C-字符提取和整数整除练习（Console）"><a href="#C-字符提取和整数整除练习（Console）" class="headerlink" title="C#   字符提取和整数整除练习（Console）"></a><em><strong>C#   字符提取和整数整除练习（Console）</strong></em></h2><h1 id="使用CSDN上自己写的一篇小文章进行测试！"><a href="#使用CSDN上自己写的一篇小文章进行测试！" class="headerlink" title="使用CSDN上自己写的一篇小文章进行测试！"></a>使用CSDN上自己写的一篇小文章进行测试！</h1><p>用控制台应用程序实现下列功能：从键盘接收一个大于100的整数，然后分别输出该整数每一位的值，并且输出这些为相加的结果。要求分别用字符提取法和整数整除法实现。字符提取法是指先将整数转换为字符串，然后依次取字符串中的每个字符，再将每个字符转换为整数求和。整数整除法是指利用取整和求余数的方法求每一位的值，再求这些位的和。<br>程序運行效果如圖：</p>
-
+<p>代碼如下：</p>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> System.Linq;</span><br><span class="line"><span class="keyword">using</span> System.Text;</span><br><span class="line"><span class="keyword">using</span> System.Threading.Tasks;</span><br><span class="line"></span><br><span class="line"><span class="keyword">namespace</span> <span class="title">lianxi</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">class</span> <span class="title">Program</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">        &#123;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                Console.Write(<span class="string">&quot;请输入一个大于100的数：&quot;</span>);</span><br><span class="line">                <span class="built_in">string</span> str = Console.ReadLine();</span><br><span class="line">                <span class="built_in">int</span> a = <span class="built_in">int</span>.Parse(str);<span class="comment">//將輸入的數字轉化成整型</span></span><br><span class="line">                <span class="built_in">int</span> length = Math.Abs(a).ToString().Length;<span class="comment">//計算輸入的數字的長度</span></span><br><span class="line">                Console.WriteLine(<span class="string">&quot;该整数共有&quot;</span> + length + <span class="string">&quot;位&quot;</span>);</span><br><span class="line">                Console.Write(<span class="string">&quot;实现思路1：每一位的值为&quot;</span>);</span><br><span class="line">                <span class="comment">//字符提取法</span></span><br><span class="line">                <span class="built_in">int</span> sum = <span class="number">0</span>;</span><br><span class="line">                <span class="built_in">int</span> l;</span><br><span class="line">                <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; length; i++)</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="keyword">if</span> (i != length - <span class="number">1</span>)<span class="comment">//運用if輸出‘、’和‘，’，如果不需要，也可以不寫if語句</span></span><br><span class="line">                    &#123;</span><br><span class="line">                        Console.Write(str[i] + <span class="string">&quot;、&quot;</span>);</span><br><span class="line">                        l = str[i] - <span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">else</span></span><br><span class="line">                    &#123;</span><br><span class="line">                        Console.Write(str[i] + <span class="string">&quot;,&quot;</span>);</span><br><span class="line">                        l = str[i] - <span class="string">&#x27;0&#x27;</span>;<span class="comment">//此處減去‘0’，表示使用字符值，而不是ASCII碼值；如果減去0，則得出的是ASCII碼值</span></span><br><span class="line">                    &#125;</span><br><span class="line">                    sum = sum + l;</span><br><span class="line">                &#125;</span><br><span class="line">                Console.WriteLine(<span class="string">&quot;这些位之和为&quot;</span> + sum);</span><br><span class="line">                </span><br><span class="line">                <span class="comment">//整數整除法</span></span><br><span class="line">                <span class="built_in">int</span> x = a;</span><br><span class="line">                <span class="built_in">int</span> sum1 = <span class="number">0</span>;</span><br><span class="line">                Console.Write(<span class="string">&quot;实现思路2：每一位的值为&quot;</span>);</span><br><span class="line">                <span class="keyword">for</span> (<span class="built_in">int</span> i = length - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--)</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="built_in">int</span> j = (<span class="built_in">int</span>)Math.Pow(<span class="number">10</span>, i);<span class="comment">//定義10的i次方等於j</span></span><br><span class="line">                    <span class="built_in">int</span> a1 = x / j;</span><br><span class="line">                    <span class="keyword">if</span> (i != <span class="number">0</span>)</span><br><span class="line">                    &#123;</span><br><span class="line">                        Console.Write(a1 + <span class="string">&quot;、&quot;</span>);</span><br><span class="line">                    &#125;</span><br><span class="line">                    <span class="keyword">else</span></span><br><span class="line">                    &#123;</span><br><span class="line">                        Console.Write(a1 + <span class="string">&quot;,&quot;</span>);</span><br><span class="line">                    &#125;</span><br><span class="line">                    x = x % j;</span><br><span class="line">                    sum1 = sum1 + a1;</span><br><span class="line">                &#125;</span><br><span class="line">                Console.WriteLine(<span class="string">&quot;这些位之和为&quot;</span> + sum1);</span><br><span class="line">                Console.WriteLine(<span class="string">&quot;按回車鍵退出，按任意键继续&quot;</span>);</span><br><span class="line">                <span class="keyword">if</span> (Console.ReadKey(<span class="literal">true</span>).Key == ConsoleKey.Enter) <span class="keyword">break</span>;<span class="comment">//判斷輸入，如果輸入的是回車鍵，則退出</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -254,23 +238,17 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/Testing/" rel="tag"># Testing</a>
-	#<a href="/tags/Testing/" rel="tag"><i class="fa fa-tag"></i></a
-              <a href="/tags/Another-Tag/" rel="tag"># Another Tag</a>
-	#<a href="/tags/Another-Tag/" rel="tag"><i class="fa fa-tag"></i></a
-          </div>
 
         
 
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/posts/undefined/" rel="next" title="Hello World">
-      Hello World <i class="fa fa-chevron-right"></i>
+    <a href="/posts/undefined/" rel="prev" title="Test-测试文档">
+      <i class="fa fa-chevron-left"></i> Test-测试文档
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
