@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-24T14:00:59.023Z</updated>
+  <updated>2021-10-07T06:36:51.238Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaWeb大作业</title>
+    <link href="http://example.com/posts/6c9a129d/"/>
+    <id>http://example.com/posts/6c9a129d/</id>
+    <published>2021-10-06T16:00:00.000Z</published>
+    <updated>2021-10-07T06:36:51.238Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="JavaWeb大作业项目测试"><a href="#JavaWeb大作业项目测试" class="headerlink" title="JavaWeb大作业项目测试"></a>JavaWeb大作业项目测试</h2><p>javaweb大作业的测试教程</p><span id="more"></span><h4 id="以下为在已经安装好git情况下操作"><a href="#以下为在已经安装好git情况下操作" class="headerlink" title="以下为在已经安装好git情况下操作"></a>以下为在已经安装好git情况下操作</h4><hr><p><strong>1.配置 git https 保存密码</strong><br>先在桌面右键选择 git bush here   </p><p>然后执行以下命令：</p><blockquote><p>git config –global credential.helper store</p></blockquote><p>这样一会儿就可以保存http 账户密码了</p><p><strong>2.克隆项目</strong><br><em>2.1 fork项目到自己的仓库</em>  </p><p><em>2.2 把克隆的项目下载到本地</em><br>       找到对应的仓库，复制https，在你要用来存放项目的文件夹(建议找一个固定的且空的文件夹，这个以后要经常用来推送或者拉取仓库里的东西)   </p><blockquote><p>git clone ‘刚才复制的https地址’  </p></blockquote><p>执行这条命令以后，会弹出来一个出一个窗口，需要输入你的gitee的账户密码，因为前面设置了保存账户密码，所以下一次就不需要再输入了  </p><p><em>2.3</em></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;JavaWeb大作业项目测试&quot;&gt;&lt;a href=&quot;#JavaWeb大作业项目测试&quot; class=&quot;headerlink&quot; title=&quot;JavaWeb大作业项目测试&quot;&gt;&lt;/a&gt;JavaWeb大作业项目测试&lt;/h2&gt;&lt;p&gt;javaweb大作业的测试教程&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Diary" scheme="http://example.com/categories/Diary/"/>
+    
+    
+    <category term="Another Tag" scheme="http://example.com/tags/Another-Tag/"/>
+    
+  </entry>
   
   <entry>
     <title>“河南大学 -- 东苑小F4”</title>
@@ -105,9 +126,9 @@
     <category term="Diary" scheme="http://example.com/categories/Diary/"/>
     
     
-    <category term="Testing" scheme="http://example.com/tags/Testing/"/>
-    
     <category term="Another Tag" scheme="http://example.com/tags/Another-Tag/"/>
+    
+    <category term="Testing" scheme="http://example.com/tags/Testing/"/>
     
   </entry>
   
